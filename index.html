@@ -1,0 +1,930 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from p.w3layouts.com/demos_new/03-02-2017/wedding_proposer-demo_Free/1023627528/web/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Mar 2021 06:35:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Wedding Proposer  a Wedding Category Bootstrap Responsive Website Template | Home :: w3layouts</title>    
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+<link href="css/snow.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+<link href="css/lsb.css" rel="stylesheet" type="text/css">
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Wedding Proposer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //meta tags -->
+<!--fonts-->
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+<!--//fonts-->
+</head>
+<body>
+<script src="http://m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+
+
+<script async src='https://p.w3layouts.com/js/autotrack.js'></script>
+
+<meta name="robots" content="noindex">
+<body><link rel="stylesheet" href="https://p.w3layouts.com/assests/css/font-awesome.min.css">
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top:70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#w3lDemoBar.w3l-demo-bar a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: .6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+  display: block;
+}
+
+#w3lDemoBar.w3l-demo-bar a:hover {
+  opacity: 1;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+  color: #e6ebff;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.column >.col-md-4{
+	  width: 100%;
+	  padding:4px;
+  }
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+</div>
+
+
+<div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+        style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+</div>
+
+<!-- header -->
+	<header>
+		<div class="container">
+			<!-- nav -->
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				<div class="logo">
+					<h1><a href="index-2.html"><span>MV</span> <div class="logo-img"><img src="images/in-love.png" alt="img09"/></div><p class="sub_title">Wedding Proposer</p> </a></h1>
+				</div>	
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <nav class="cl-effect-13" id="cl-effect-13">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index-2.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="gallery.html">Albums</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+						
+					</nav>
+
+				</div>
+				<!-- /.navbar-collapse -->
+			  </div>
+			  <!-- /.container-fluid -->
+			</nav> 
+			<!-- //nav -->
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- banner-slider -->
+	<div class="w3ls_banner_section">
+			<div class="snow-container">
+			  <div class="snow foreground"></div>
+			  <div class="snow foreground layered"></div>
+			  <div class="snow middleground"></div>
+			  <div class="snow middleground layered"></div>
+			  <div class="snow background"></div>
+			  <div class="snow background layered"></div>
+			</div>
+				<div class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+							
+								  <div class="banner_agile-info">
+									  <h3>We loved with a love that was more than love.</h3>
+									   <div class="banner-mid-wthree"> <a href="index-2.html" class="hvr-buzz"> <img src="images/couple.png" alt="wp"/></a> </div>
+								  </div>
+							</li>
+							<li>
+								  <div class="banner_agile-info">
+									  <h3>We are Getting Married!!</h3>
+									   <div class="banner-mid-wthree"> <a href="index-2.html" class="hvr-buzz"> <img src="images/couple.png" alt="wp"/></a> </div>
+								  </div>
+							</li>
+							<li>
+								
+							 <div class="banner_agile-info">
+								  <h3>Save the Date</h3>
+								   <div class="banner-mid-wthree"> <a href="index-2.html" class="hvr-buzz"> <img src="images/couple.png" alt="wp"/></a> </div>
+							  </div>
+							</li>
+							
+
+						</ul>
+						
+				<div class="clearfix"></div>
+			</div>
+
+			
+		</div>
+			<!--/story-->
+				<div class="about_section">
+					<div class="container">
+					<!---728x90--->
+
+						   <div class="wthree_title_agile">
+						        <h2>Our <span>Story</span></h2>
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								
+							</div>
+						 <p class="sub_para">WE ARE GETTING MARRIED</p>
+						 <div class="inner_w3l_agile_grids">
+								<!-- Bottom to top-->
+									<div class="col-md-6 team-grid">
+										<!-- normal -->
+										<div class="ih-item circle effect10 bottom_to_top">
+											<div class="img"><img src="images/a1.jpg" alt="img" /></div>
+											<div class="info">
+												<h3>Megha</h3>
+												
+											</div>
+										</div>
+										<!-- end normal -->
+										  <h4>Bride</h4>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat nec vulputate purus nisl nec tortor.. </p>
+										  <div class="icons">
+													<ul>
+														<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+														<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+									</div>
+									<div class="col-md-6 team-grid">
+										<!-- normal -->
+										<div class="ih-item circle effect10 bottom_to_top">
+											<div class="img"><img src="images/a2.jpg" alt="img" /></div>
+											<div class="info">
+												<h3>Vivek</h3>
+												
+											</div>
+										</div>
+										<!-- end normal -->
+										 <h4>Groom</h4>
+										  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat nec vulputate purus nisl nec tortor.. </p>
+										  <div class="icons">
+													<ul>
+														<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+														<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+														<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+									</div>
+									<div class="clearfix"></div>
+						</div>
+					</div>
+					
+  <!---728x90--->
+                </div>
+			<!--//story-->
+			
+	<!--/counter-->
+<div class="agileinfo_counter_section">
+  <div class="wthree_title_agile">
+						        <h3 class="h-t">Wedding <span>Coming Soon</span></h3>
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								
+							</div>
+						 <p class="sub_para two">WE ARE GETTING MARRIED</p>
+ <div class="wthree-counter-agile">
+			   <!--timer-->
+					<section class="examples">
+							<div class="simply-countdown-losange" id="simply-countdown-losange"></div>
+							<div class="clearfix"></div>
+						</section>
+
+				<!--//timer-->
+
+			 </div>
+<div class="clearfix"></div>
+</div>
+<!--//counter-->
+	<div class="w3l_inner_section">
+	<!---728x90--->
+				<!--//screen-gallery-->
+				<div class="container">
+					<!---728x90--->
+
+						   <div class="wthree_title_agile">
+						        <h2>Wedding  <span>Albums</span></h2>
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								
+							</div>
+						 <p class="sub_para">WE ARE GETTING MARRIED</p>
+	
+						<!---728x90--->
+						 <div class="inner_w3l_agile_grids row">
+				<div class="column">
+					<div class="col-md-4 w3_tabs_grid">
+						<div class="grid">
+							<a href="images/g1.jpg" class="lsb-preview" data-lsb-group="header">
+								<figure class="effect-winston">
+									<img src="images/g1.jpg" class="img-responsive" alt=" " />
+									<figcaption>
+										<p>
+											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</p>
+									</figcaption>			
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 w3_tabs_grid">
+						<div class="grid">
+							<a href="images/g2.jpg" class="lsb-preview" data-lsb-group="header">
+								<figure class="effect-winston">
+									<img src="images/g2.jpg" class="img-responsive" alt=" " />
+									<figcaption>
+										<p>
+											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</p>
+									</figcaption>			
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 w3_tabs_grid">
+						<div class="grid">
+							<a href="images/g3.jpg" class="lsb-preview" data-lsb-group="header">
+								<figure class="effect-winston">
+									<img src="images/g3.jpg" class="img-responsive" alt=" " />
+									<figcaption>
+										<p>
+											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</p>
+									</figcaption>			
+								</figure>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 w3_tabs_grid ">
+						<div class="grid">
+							<a href="images/g4.jpg" class="lsb-preview" data-lsb-group="header">
+								<figure class="effect-winston">
+									<img src="images/g4.jpg" class="img-responsive" alt=" " />
+									<figcaption>
+										<p>
+											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</p>
+									</figcaption>			
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="col-md-4 w3_tabs_grid ">
+						<div class="grid">
+							<a href="images/g5.jpg" class="lsb-preview" data-lsb-group="header">
+								<figure class="effect-winston">
+									<img src="images/g5.jpg" class="img-responsive" alt=" " />
+									<figcaption>
+										<p>
+											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+											<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+										</p>
+									</figcaption>			
+								</figure>
+							</a>
+						</div>
+					</div>
+				
+				<div class="col-md-4 w3_tabs_grid ">
+					<div class="grid">
+						<a href="images/g6.jpg" class="lsb-preview" data-lsb-group="header">
+							<figure class="effect-winston">
+								<img src="images/g6.jpg" class="img-responsive" alt=" " />
+								<figcaption>
+									<p>
+										<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+									</p>
+								</figcaption>			
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 w3_tabs_grid">
+					<div class="grid">
+						<a href="images/g7.jpg" class="lsb-preview" data-lsb-group="header">
+							<figure class="effect-winston">
+								<img src="images/g7.jpg" class="img-responsive" alt=" " />
+								<figcaption>
+									<p>
+										<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+									</p>
+								</figcaption>			
+							</figure>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 w3_tabs_grid">
+					<div class="grid">
+						<a href="images/g9.jpg" class="lsb-preview" data-lsb-group="header">
+							<figure class="effect-winston">
+								<img src="images/g9.jpg" class="img-responsive" alt=" " />
+								<figcaption>
+									<p>
+										<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+									</p>
+								</figcaption>			
+							</figure>
+						</a>
+					</div>
+				</div>
+				</div>
+				<div class="column">
+				<div class="col-md-4 w3_tabs_grid">
+					<div class="grid">
+						<a href="images/g2.jpg" class="lsb-preview" data-lsb-group="header">
+							<figure class="effect-winston">
+								<img src="images/g2.jpg" class="img-responsive" alt=" " />
+								<figcaption>
+									<p>
+										<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+									</p>
+								</figcaption>			
+							</figure>
+						</a>
+					</div>
+				</div>
+			</div>
+				<div class="clearfix"> </div>
+
+						 </div>
+					</div>
+		  </div>
+ </div>
+<!-- /property-grids -->
+<div class="property-grids">
+     <div class="agile-homes-w3l  grid">
+                <div class="col-md-6 home-agile-left">
+				   <figure class="effect-moses">
+							<img src="images/p1.jpg" alt="" />
+							<figcaption>
+								<h4>Wedding Proposer</h4>
+								<p>We Make Your Dream True</p>
+							</figcaption>			
+				</figure>
+
+				</div>
+				<div class="col-md-6 home-agile-text">
+				   <h4>Wedding Ceremony</h4>
+				   <p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				    <div class="date">
+					   <h5><i class="fa fa-calendar" aria-hidden="true"></i> April 27 2021</h5>
+					   <h5><i class="fa fa-clock-o" aria-hidden="true"></i> 02.00pm to 06.00pm</h5>
+				   </div>
+						<div class="icon_wthree"><img src="images/ring.png" alt="" /></div>
+				</div>
+				<div class="clearfix"></div>	
+				 
+				<div class="col-md-6 home-agile-text">
+				   <h4>Wedding Dinner</h4>
+				   <p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				   <div class="date">
+					   <h5><i class="fa fa-calendar" aria-hidden="true"></i> April 27 2021</h5>
+					   <h5><i class="fa fa-clock-o" aria-hidden="true"></i> 07.00pm to 10.00pm</h5>
+				   </div>
+				   <div class="icon_wthree"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+
+				</div>
+				<div class="col-md-6 home-agile-left">
+						 <figure class="effect-moses">
+							<img src="images/p2.jpg" alt="" />
+							<figcaption>
+								<h4>Wedding Proposer</h4>
+								<p>We Make Your Dream True</p>
+							</figcaption>			
+				</figure>
+				</div>
+				<div class="clearfix"></div>	
+     </div>
+</div>
+<!-- //property-grids -->
+
+<!-- /Events-->
+			<div class="wthree-news text-center">
+				<div class="container">
+					<div class="wthree_title_agile">
+						        <h3>Our <span>Events</span></h3>
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								
+							</div>
+						 <p class="sub_para">OUR WEDDING EVENTS</p>
+						 <div class="inner_w3l_agile_grids">
+					<div class="col-md-6 wthree-right">
+						<div class="w3-agile-left">
+							<div class="work-left">
+								<h4>22 july</h4>
+							</div>
+							<div class="agileits-right text-left">
+								<a href="single.html">News post-1</a>
+								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+									fugiat nulla pariatur.</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="wel-right">
+							<div class="content-item item-image1">
+								<a href="single.html"><img src="images/e1.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-6 wthree-right no-marg">
+						<div class="wel-right2">
+							<div class="content-item item-image2">
+								<a href="single.html"><img src="images/e2.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="w3-agile-left2">
+							<div class="work-left">
+								<h4>02 Aug</h4>
+							</div>
+							<div class="agileits-right text-left">
+								<a href="single.html">News post-2</a>
+								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+									fugiat nulla pariatur.</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-6 wthree-right">
+						<div class="w3-agile-left">
+							<div class="work-left">
+								<h4>12 Sep</h4>
+							</div>
+							<div class="agileits-right text-left">
+								<a href="single.html">News post-3</a>
+								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+									fugiat nulla pariatur. </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="wel-right ">
+							<div class="content-item item-image1">
+								<a href="single.html"><img src="images/e3.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-6 wthree-right no-marg">
+						<div class="wel-right2">
+							<div class="content-item item-image2">
+								<a href="single.html"><img src="images/e4.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="w3-agile-left2">
+							<div class="work-left">
+								<h4>15 Nov</h4>
+							</div>
+							<div class="agileits-right text-left">
+								<a href="single.html">News post-4</a>
+								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+									fugiat nulla pariatur.</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+			<!-- //Events-->
+<!--/bottom-->
+<div class="agileinfo_bottom_section">
+
+<div class="snow-container two">
+			  <div class="snow foreground"></div>
+			  <div class="snow foreground layered"></div>
+			  <div class="snow middleground"></div>
+			  <div class="snow middleground layered"></div>
+			  <div class="snow background"></div>
+			  <div class="snow background layered"></div>
+			</div>
+  <div class="agile-w3l-sec">
+              <h3>The best gift will be your participation, thanks to all</h3>
+			  <p>Megha <span>&</span> Vivek</p>
+			  <div class="banner-mid-wthree"> <a href="index-2.html" class="hvr-buzz"> <i class="fa fa-heart-o" aria-hidden="true"></i></a> </div>
+  	</div>
+
+</div>
+ 
+<!--//bottom-->
+	<!-- footer -->
+<div class="agile-footer">
+		<div class="container">
+			<div class="aglie-info-logo">
+			
+				<div class="banner-mid-wthree"> <a href="index-2.html" class="hvr-buzz"> <img src="images/couple.png" alt="wp"/></a> </div>
+			</div>
+			<ul class="aglieits-nav">
+				<li><a href="index-2.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Albums</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+<div class="w3_agileits_social_media">
+					<ul>
+						<li><a href="#" class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<!-- //footer -->
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!-- Required-js -->
+	<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:true,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+							 <!-- js -->
+
+	<!-- //main slider-banner --> 	
+	<!-- Countdown-Timer-JavaScript -->
+			<script src="js/simplyCountdown.js"></script>
+			<script>
+				var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);
+
+				// default example
+				simplyCountdown('.simply-countdown-one', {
+					year: 2021,
+					month: 4,
+					day: 27,
+				});
+
+				// inline example
+				simplyCountdown('.simply-countdown-inline', {
+					year: 2021,
+					month: 4,
+					day: 27,
+					inline: true
+				});
+
+				//jQuery example
+				$('#simply-countdown-losange').simplyCountdown({
+					year: 2021,
+					month: 4,
+					day: 27,
+					enableUtc: false
+				});
+			</script>
+		<!-- //Countdown-Timer-JavaScript -->
+ <!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items :5,
+									itemsDesktop : [768,4],
+									itemsDesktopSmall : [414,3],
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation :true,
+									
+							        navigationText :  false,
+							        pagination : true,
+									
+							      });
+								  
+							    });
+							    </script>
+								 <!--//required-js-files-->
+
+	<!-- here stars scrolling icon -->
+			<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+						};
+					*/
+										
+					$().UItoTop({ easingType: 'easeOutQuart' });
+										
+					});
+			</script>
+			<!-- start-smoth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+			</script>
+			<!-- start-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->	
+		<script src="js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<audio controls preload="none" autoplay id="audio" loop>
+			<source src="images/song.mp3" type="audio/mpeg" > 
+		</audio>
+		<div class="playButton">
+			<a id='audioControll'>
+				<i class="fa fa-play" aria-hidden="true" id='audio-icon'></i>
+			</a>
+		</div>
+		<style>
+			.playButton{
+				position: fixed;
+				top: 30px;
+				left: 20px;
+				width: 25px;
+				height: 25px;
+				background-color: #fc3158;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#audio-icon{
+				color: white;
+			}
+			#audio{
+				display: none;
+			}
+		</style>
+		<script>
+			var myAudio = document.getElementById('audio')
+			var audioControll = document.getElementById('audioControll')
+			var audioIcon = document.getElementById('audio-icon')
+			let isPlaying = false
+			audioControll.addEventListener('click',()=>{
+				togglePlay()
+			})
+			function togglePlay() {
+				isPlaying ? myAudio.pause() : myAudio.play();
+			};
+			myAudio.onplaying = function() {
+				isPlaying = true;
+				audioIcon.classList.remove('fa-play')
+				audioIcon.classList.add("fa-pause");
+			};
+			myAudio.onpause = function() {
+				isPlaying = false;
+				audioIcon.classList.remove('fa-pause')
+				audioIcon.classList.add("fa-play");
+			};
+		</script>
+		<script src="js/lsb.min.js"></script>
+		<script>
+		$(window).load(function() {
+			  $.fn.lightspeedBox();
+			});
+		</script>
+<div id = "v-w3layouts"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, 'http://a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
+	</body>
+
+<!-- Mirrored from p.w3layouts.com/demos_new/03-02-2017/wedding_proposer-demo_Free/1023627528/web/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Mar 2021 06:35:44 GMT -->
+</html>
