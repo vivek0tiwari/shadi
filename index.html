@@ -170,7 +170,7 @@ RIGHT SIDEBAR TOGGLE SECTION
   transition: all .3s ease-in-out;
 }
 
-.row {
+.row_grid {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
@@ -189,6 +189,39 @@ RIGHT SIDEBAR TOGGLE SECTION
 	  width: 100%;
 	  padding:4px;
   }
+  .row1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 20px;
+	max-width: 100%;
+	flex-wrap: wrap;
+  }
+  .col-md-22{
+	  flex: 30%;
+	  -ms-flex: 25%; /* IE10 */
+  }
+  .parents{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .base{
+	  margin-top: 25px;
+  }
+  .parents-text-women h4 {
+    margin: .5em auto;
+    text-align: center;
+    color: #D65679;
+	font-family: 'Raleway', 'Helvetica', sans-serif;
+}
+.parents span {
+    text-transform: uppercase;
+    font-size: 11px;
+    display: block;
+    color: #aaa;
+    letter-spacing: 2px;
+}
 @media (max-width: 992px) {
   #w3lDemoBar.w3l-demo-bar a.desktop-mode{
       display: none;
@@ -203,7 +236,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 @media (max-width: 767px) {
   #w3lDemoBar.w3l-demo-bar a.tablet-mode{
       display: none;
-
   }
 }
 @media (max-width: 568px) {
@@ -225,6 +257,9 @@ RIGHT SIDEBAR TOGGLE SECTION
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+  .row1{
+	flex-direction: column;
   }
 }
 
@@ -314,9 +349,10 @@ RIGHT SIDEBAR TOGGLE SECTION
 						<div class="gn-scroller">
 							<ul class="gn-menu">
 								<li><a href="#home" >Home</a></li>
-								<li><a href="#events" >Memories</a></li>
-								<li><a href="#wedding">Ceremonies &amp; Functions</a></li>
+								<li><a href="#family">Family</a></li>
 								<li><a href="#album">Photos</a></li>
+								<li><a href="#wedding">Ceremonies &amp; Functions</a></li>
+								<li><a href="#events" >Memories</a></li>
 								<li><a href="#aboutus" >About Us</a></li>
 							</ul>
 						</div><!--end gn-scroller-->
@@ -469,6 +505,81 @@ RIGHT SIDEBAR TOGGLE SECTION
   <!---728x90--->
                 </div>
 			<!--//story-->
+			<div id="family">
+				<div class="container">	
+				<div id="parents" class="animated fadeIn" >
+						<div class="wthree_title_agile">
+							<h2>The  <span>Family</span></h2>
+							<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+							
+						</div>
+					<div class="heart content-style"></div>
+						
+						<div class="row1">   
+							<div class="col-md-22">
+								<div class="parents" >
+								<div class="base">	
+								  <img src="images/family/megha/mom_dad.jpg"> </div>
+								<div class="parents-text-women"><h4>Mrs.  Indrani &amp; Mr. Gaurishankar  Dubey </h4>
+								
+								</div>
+								<span>Brides Mom  &amp; Dad</span>
+								</div>
+							</div><!--end col-md-2-->
+							<div class="col-md-22">
+								<div class="parents" >
+								<a href="#" class="overlay hexagon"></a>
+								<div class="base">
+								  <img src="images/family/vivek/mom_dad.jpg"> </div>
+								<div class="parents-text-women"><h4>Mrs.  Lata  &amp; Mr. Lokesh  Tiwari</h4></div>
+								<span>Grooms Mom  &amp; Dad</span>
+								</div>
+							</div><!--end col-md-2-->
+							<!--end col-md-4-->
+							<div class="col-md-22">
+								<div class="parents" >
+								<a href="#" class="overlay hexagon"></a>
+								<div class="base">
+								  <img src="images/family/vivek/pinki.jpg"> </div>
+								<div class="parents-text-women"><h4>Mrs.  Priyanka  &amp; Mr. Rajesh  Panda </h4></div>
+								<span>Grooms Sister &amp; Brother in law</span>
+								</div>
+							</div><!--end col-md-2-->
+							<div class="col-md-22">
+								<div class="parents" >
+								<a href="#" class="overlay hexagon"></a>
+								<div class="base">
+								  <img src="images/family/megha/suryanse.jpg"> </div>
+								<div class="parents-text-women"><h4>Suryanse Dubey </h4></div>
+								<span>Brides Brother </span>
+								</div>
+								</div><!--end col-md-2-->
+								
+								<div class="col-md-22">
+								<div class="parents">
+								<a href="#" class="overlay hexagon"></a>
+								<div class="base">
+								  <img src="images/family/vivek/bikku.jpg"></div>
+								<div class="parents-text-women"><h4>Vikash Tiwari </h4></div>
+								<span>Grooms Brother</span>
+								</div>
+							</div>
+								
+								
+							 
+						</div><!-- end row -->
+						<div class="clearfix"></div>
+					</div>
+					<!--Godfathers-->
+					<!--end #godfathers-->
+							
+					
+					<!--Maids-->			
+					<!--end col-md-3-->
+			
+					
+				</div><!-- end container-->
+			</div>
 			
 	<!--/counter-->
 <div class="agileinfo_counter_section">
@@ -503,7 +614,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 							</div>
 	
 						<!---728x90--->
-						 <div class="inner_w3l_agile_grids row">
+						 <div class="inner_w3l_agile_grids row_grid">
 				<div class="column">
 					<div class="col-md-4 w3_tabs_grid">
 						<div class="grid">
@@ -971,6 +1082,7 @@ $(document).ready(function() {
 	$('#wedding').parallax("50%", 0);
 	$('#album').parallax("50%", 0);
 	$('#aboutus').parallax("50%", 0);
+	$('#family').parallax("50%", 0);
 });
 
 			</script>
